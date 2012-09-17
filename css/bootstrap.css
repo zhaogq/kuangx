@@ -24,10 +24,11 @@ p.small {font-variant: small-caps}
   background-position: top center;
 }
 #bg_super{
+  margin: 800px;
   border: 0px solid #FF0000;
   background-image: url(../img/super_log_in.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
 }
 .log_in_frame{
 	  color: #336699; 
