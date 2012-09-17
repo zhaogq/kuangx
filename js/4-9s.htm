@@ -1,0 +1,15 @@
+<script language="JavaScript">
+var urodz= new Date("12/6/2012");
+var  s="<h1><font color=blue>今天距</font><font color=yellow>生日</font></h1>";
+var now = new Date();
+var ile = urodz.getTime() - now.getTime();
+var dni = Math.floor(ile / (1000 * 60 * 60 * 24));
+if (dni >0)
+    document.write(""+s+"<h1><font color=blue>还剩</font><font color=yellow>"+dni +"</font><font color=blue>天</font></h1>")
+else
+    document.write("<h1>对不起，你访问已过期</h1>");
+</script>
+
+
+
+
